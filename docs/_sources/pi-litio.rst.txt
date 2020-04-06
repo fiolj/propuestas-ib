@@ -6,8 +6,7 @@
 Resumen
 =======
 
-El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres de la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE.
-
+El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres de la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE en el Centro Atómico Bariloche.
 
 
 Objetivo
