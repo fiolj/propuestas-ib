@@ -72,10 +72,11 @@ Segundo eje
 El estudiante se involucrará en mediciones experimentales de pulsos del orden de los 150 fs. Realizará mediciones de autocorrelación y de FROG en el láser de femtosegundo disponible en el Laboratorio de Espectroscopía Ultrarrápida del proyecto LASIE.
 
 El trabajo del estudiante comprenderá los siguientes aspectos:
- - Mediciones de autocorrelación.
- - Mediciones de espectrogramas mediante FROG.
- - Análisis y procesamiento de los datos registrados.
- - Caracterización de los pulsos láseres ultracortos utilizando el código numérico implementado.
+
+- Mediciones de autocorrelación.
+- Mediciones de espectrogramas mediante FROG.
+- Análisis y procesamiento de los datos registrados.
+- Caracterización de los pulsos láseres ultracortos utilizando el código numérico implementado.
 
 
 Referencias
