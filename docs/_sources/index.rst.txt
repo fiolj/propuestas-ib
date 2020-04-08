@@ -7,9 +7,10 @@ Propuestas de trabajos y proyectos integradores
 ===============================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Índice:
+   :maxdepth: 1
+   :caption: Propuestas 2020:
 
-   pi-litio
+   litio
+   frog
 
 

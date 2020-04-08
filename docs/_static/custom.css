@@ -1,0 +1,15 @@
+/* Make text width equal to full page width */
+
+/* For alabaster */
+div.body {
+    max-width: none;
+}
+
+/* For sphinx_rtd_theme */
+.wy-nav-content {
+    padding: 1.618em 3.236em;
+    height: 100%;
+    max-width: none;
+    margin: auto;
+}
+
