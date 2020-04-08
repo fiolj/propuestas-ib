@@ -7,7 +7,7 @@ Diseño y caracterización de experimento de enriquecimiento de Litio
 Resumen
 =======
 
-El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres de la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE en el Centro Atómico Bariloche.
+El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres de la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE en el Centro Atómico Bariloche. El plan de trabajo involucra todas las etapas necesarias para el desarrollo de un método de separación isotópica de litio, con una fuerte interacción entre los aspectos teóricos y experimentales. 
 
 
 Objetivo
@@ -70,7 +70,7 @@ Ionización selectiva:
     Los átomos del haz se excitan mediante irradiación con un láser continuo sintonizable, cubriendo el rango 670.77 nm a 670.81 nm que permite excitar a cada isótopo selectivamente del estado fundamental al estado 1s\ :sup:`2`\ 2p.  Esta transición se produce por interacción de un único fotón por lo que se necesita una fluencia moderada, pero es fundamental que el ancho de línea del láser sea inferior a 1 pm para poder excitar selectivamente uno de los isótopos. Posteriormente los átomos excitados se ionizan mediante la aplicación adicional de uno o dos pulsos de láser.
 
 Diagnóstico y separación:
-    La separación de los iones para su acumulación se produce mediante un sistema simple de placas cargadas. Las mediciones de grado de selectividad isotópica, eficiencia de ionización y de densidades del haz se realizan utilizando un espectrómetro de masas por tiempo de vuelo diseñado y construido *ad-hoc* para su uso en la cámara de reacción.
+    La separación de los iones para su acumulación se produce mediante un sistema simple de placas cargadas. Las mediciones de grado de selectividad isotópica, eficiencia de ionización y de densidades del haz se realizan utilizando un espectrómetro de masas por tiempo de vuelo, diseñado y construido *ad-hoc* para su uso en la cámara de reacción.
 
 
 Propuesta de trabajo
@@ -81,7 +81,7 @@ Se propone que el estudiante se involucre en todas las etapas de la descripción
 Proyecto Integrador
 ~~~~~~~~~~~~~~~~~~~
 
-En una primera etapa el estudiante realizará una simulaciones y cálculos sencillos de las características del horno de evaporación para generación del haz atómico. El objetivo de este trabajo es el desarrollo de un método de predicción de eficiencia y caracterización teórica del haz. Con esta herramienta se realizarán estudios de diseño óptimo para los experimentos de separación isotópica preliminares y para su extensión a una posterior etapa de escalado a planta piloto.
+En una primera etapa el estudiante realizará simulaciones y cálculos sencillos de las características del horno de evaporación para generación del haz atómico. El objetivo de este trabajo es el desarrollo de un método de predicción de eficiencia y caracterización teórica del haz. Con esta herramienta se realizarán estudios de diseño óptimo para los experimentos de separación isotópica preliminares y para su extensión a una posterior etapa de escalado a planta piloto.
 
 Adicionalmente, el estudiante realizará un estudio teórico de la señal de iones en la zona de diagnóstico mediante espectroscopía de tiempos de vuelo, investigando la dependencia con la configuración de campos eléctricos tanto de la eficiencia como de la precisión y sensibilidad de las mediciones.
 
