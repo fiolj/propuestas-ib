@@ -26,7 +26,7 @@ El objetivo de esta propuesta es el desarrollo de un algoritmo y sistema automá
 
 El espectrograma de un pulso contiene información sobre su ancho temporal y sobre su fase. Para extraer esta información, se debe aplicar un algoritmo que va probando y comparando el espectrograma de un pulso de prueba con el que se obtiene experimentalmente. Según la estrategia de resolución del algoritmo que se implemente, la convergencia, estabilidad y otros factores de la solución que se obtenga, permitirán evaluar y caracterizar el pulso que se estudia.
 
-Durante la realización de este trabajo se validarán los resultados mediante mediciones y análisis de los datos obtenidos.
+Además de la implementación numérica, se probará y validará el código con resultados experimentales, realizando mediciones y posterior análisis de los datos obtenidos.
 
 
 Cronograma
@@ -34,25 +34,32 @@ Cronograma
 
 1er cuatrimestre:
 
-Durante el primer semestre
+* Revisión y aprendizaje de métodos y herramientas teóricas, numéricas y computacionalmente relacionadas con el problema.
 
 * Estudio teórico de los espectrogramas y los fundamentos del método de inversión de la señal.
+
 * Implementación de un métodos computacional de análisis:
+  
   - generación de pulsos 'teóricos' o de 'prueba'.
   - verificación de funcionamiento del código.
-* Mediciones de espectros de autocorrelación.
+
+* Mediciones de espectros de autocorrelación de intensidad.
 
 
 2do cuatrimestre:
 
 * Implementación y validación de códigos de cálculo
+
   - estudio de la convergencia y estabilidad del sistema de resolución.
   - resolución de los espectrogramas con la incorporación de 'ruido'.
   - comparación con otros códigos de resolución numérica.
+
 * Mediciones y validación del código
+
   - mediciones de espectrogramas mediante FROG.
   - análisis y procesamiento de los datos registrados.
   - caracterización de los pulsos láseres ultracortos utilizando el código numérico implementado.
+
 * Documentación del trabajo.
 
 Plan de Formación

@@ -100,6 +100,30 @@
 <li class="toctree-l3"><a class="reference internal" href="#id6">Cronograma</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#estudio-de-modelos-de-clusterizacion-en-mezclas-de-gases">Estudio de modelos de clusterización en mezclas de gases</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Motivación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Objetivos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Cronograma</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#caracterizacion-de-procesos-separativos-en-mezclas-de-gases">Caracterización de procesos separativos en mezclas de gases</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Motivación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Objetivos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Cronograma</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#analisis-de-modelos-de-difusion-de-especies-en-mezclas-ternarias-de-gases">Análisis de modelos de difusión de especies en mezclas ternarias de gases</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Motivación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Objetivos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Cronograma</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#caracterizacion-de-ondas-de-choque-en-toberas-tipo-expansion-libre">Caracterización de ondas de choque en toberas tipo expansión libre</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id16">Motivación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">Objetivos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">Cronograma</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -267,29 +291,38 @@ A partir de la medición del espectrograma, que se obtiene registrando el espect
 <h3>Objetivos Proyecto Integrador<a class="headerlink" href="#id2" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>El objetivo de esta propuesta es el desarrollo de un algoritmo y sistema automático de caracterización temporal y de frecuencias de pulsos ultracortos de radiación láser.</p>
 <p>El espectrograma de un pulso contiene información sobre su ancho temporal y sobre su fase. Para extraer esta información, se debe aplicar un algoritmo que va probando y comparando el espectrograma de un pulso de prueba con el que se obtiene experimentalmente. Según la estrategia de resolución del algoritmo que se implemente, la convergencia, estabilidad y otros factores de la solución que se obtenga, permitirán evaluar y caracterizar el pulso que se estudia.</p>
-<p>Durante la realización de este trabajo se validarán los resultados mediante mediciones y análisis de los datos obtenidos.</p>
+<p>Además de la implementación numérica, se probará y validará el código con resultados experimentales, realizando mediciones y posterior análisis de los datos obtenidos.</p>
 </div>
 <div class="section" id="id3">
 <h3>Cronograma<a class="headerlink" href="#id3" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>1er cuatrimestre:</p>
-<p>Durante el primer semestre</p>
 <ul class="simple">
+<li><p>Revisión y aprendizaje de métodos y herramientas teóricas, numéricas y computacionalmente relacionadas con el problema.</p></li>
 <li><p>Estudio teórico de los espectrogramas y los fundamentos del método de inversión de la señal.</p></li>
-<li><p>Implementación de un métodos computacional de análisis:
-- generación de pulsos “teóricos” o de “prueba”.
-- verificación de funcionamiento del código.</p></li>
-<li><p>Mediciones de espectros de autocorrelación.</p></li>
+<li><p>Implementación de un métodos computacional de análisis:</p>
+<ul>
+<li><p>generación de pulsos “teóricos” o de “prueba”.</p></li>
+<li><p>verificación de funcionamiento del código.</p></li>
+</ul>
+</li>
+<li><p>Mediciones de espectros de autocorrelación de intensidad.</p></li>
 </ul>
 <p>2do cuatrimestre:</p>
 <ul class="simple">
-<li><p>Implementación y validación de códigos de cálculo
-- estudio de la convergencia y estabilidad del sistema de resolución.
-- resolución de los espectrogramas con la incorporación de “ruido”.
-- comparación con otros códigos de resolución numérica.</p></li>
-<li><p>Mediciones y validación del código
-- mediciones de espectrogramas mediante FROG.
-- análisis y procesamiento de los datos registrados.
-- caracterización de los pulsos láseres ultracortos utilizando el código numérico implementado.</p></li>
+<li><p>Implementación y validación de códigos de cálculo</p>
+<ul>
+<li><p>estudio de la convergencia y estabilidad del sistema de resolución.</p></li>
+<li><p>resolución de los espectrogramas con la incorporación de “ruido”.</p></li>
+<li><p>comparación con otros códigos de resolución numérica.</p></li>
+</ul>
+</li>
+<li><p>Mediciones y validación del código</p>
+<ul>
+<li><p>mediciones de espectrogramas mediante FROG.</p></li>
+<li><p>análisis y procesamiento de los datos registrados.</p></li>
+<li><p>caracterización de los pulsos láseres ultracortos utilizando el código numérico implementado.</p></li>
+</ul>
+</li>
 <li><p>Documentación del trabajo.</p></li>
 </ul>
 </div>
@@ -336,6 +369,128 @@ Dado que en una misma geometría pueden coexistir regiones de más altas presion
 <li><p>Implementación en los códigos de cálculo correspondientes.</p></li>
 <li><p>Evaluación cuantitativa de parámetros relevantes del proceso. Documentación del trabajo.</p></li>
 </ul>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="estudio-de-modelos-de-clusterizacion-en-mezclas-de-gases">
+<h2>Estudio de modelos de clusterización en mezclas de gases<a class="headerlink" href="#estudio-de-modelos-de-clusterizacion-en-mezclas-de-gases" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Director</dt>
+<dd class="field-odd"><p>Dr. José González</p>
+</dd>
+<dt class="field-even">Co-Director</dt>
+<dd class="field-even"><p>Dr. Alejandro Clausse</p>
+</dd>
+</dl>
+<div class="section" id="id7">
+<h3>Motivación<a class="headerlink" href="#id7" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Estudio de modelos de parámetros efectivos para analizar fenómenos de clusterización (aglomeración de moléculas) en mezclas de gases. La aglomeración de moléculas resulta detrminante en la cuantificación de parámetros de procesos separativos, los cuales son de alta relevancia en el marco del proyecto LASIE (Laboratorio Argentino de Separación Isotópica Experimental)</p>
+</div>
+<div class="section" id="id8">
+<h3>Objetivos<a class="headerlink" href="#id8" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El análisis de los procesos difusivos en mezclas de gases resulta determinante al momento de cuantificar tanto la separación de mezclas de gases, como la isotópica.
+Basados en modelos que permiten estimar el poder separativo en mezclas de gases de interés del proyecto, se propone incluir mediante parámetros efectivos la fenomenología de la clusterización. Para ello se partirá de las ecuaciones de difusión desarrolladas en trabajos anteriores para estudiar la forma más apropiada de incorporar la fenomenología de clusterización, y su posterior implementación en el código de cálculo que permita estimar los parámetros característicos del proceso separativo.</p>
+</div>
+<div class="section" id="id9">
+<h3>Cronograma<a class="headerlink" href="#id9" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="simple">
+<dt>1er cuatrimestre:</dt><dd><p>Estudio de las ecuaciones de difusión en gases. Análisis de propuestas de modelos efectivos de clusterización.</p>
+</dd>
+<dt>2do cuatrimestre:</dt><dd><p>Implementación del modelo en un código de cálculo. Evaluación cuantitativa de parámetros relevantes del proceso. Documentación del trabajo.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="caracterizacion-de-procesos-separativos-en-mezclas-de-gases">
+<h2>Caracterización de procesos separativos en mezclas de gases<a class="headerlink" href="#caracterizacion-de-procesos-separativos-en-mezclas-de-gases" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Director</dt>
+<dd class="field-odd"><p>Dr. José González</p>
+</dd>
+<dt class="field-even">Co-director</dt>
+<dd class="field-even"><p>Dr. Enrique Kaul</p>
+</dd>
+</dl>
+<div class="section" id="id10">
+<h3>Motivación<a class="headerlink" href="#id10" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Caracterización de flujos en toberas orientado a cuantificación de parámetros de procesos separativos, desde el punto de vista análisis numérico y contraste experimental, en el marco del proyecto LASIE.</p>
+</div>
+<div class="section" id="id11">
+<h3>Objetivos<a class="headerlink" href="#id11" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Se propone estudiar procesos separtivos de mezclas de gases en geometrías de interés.
+Para ello se propone evaluar numéricamente con herramientas desarrolladas en el proyecto, los parámetros geométricos más convenientes para producir separación en una dada mezcla de gases, para posteriormente contrastarlos con una medición experimental.</p>
+</div>
+<div class="section" id="id12">
+<h3>Cronograma<a class="headerlink" href="#id12" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="simple">
+<dt>1er cuatrimestre:</dt><dd><p>Estudio de los modelos de difusión de gases en toberas en flujo supersónico. Estimación numérica de la geometría más conveninete para una dada mezcla de gases.</p>
+</dd>
+<dt>2do cuatrimestre:</dt><dd><p>Evaluación del proceso separativo en loops experimentales dispónibles en el proyecto. Comparaciones numérico-experimental. Documentación del trabajo.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="analisis-de-modelos-de-difusion-de-especies-en-mezclas-ternarias-de-gases">
+<h2>Análisis de modelos de difusión de especies en mezclas ternarias de gases<a class="headerlink" href="#analisis-de-modelos-de-difusion-de-especies-en-mezclas-ternarias-de-gases" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Director</dt>
+<dd class="field-odd"><p>Dr. José González</p>
+</dd>
+<dt class="field-even">Co-Director</dt>
+<dd class="field-even"><p>ing. Juan Pablo Canal</p>
+</dd>
+<dt class="field-odd">Lugar</dt>
+<dd class="field-odd"><p>Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE - CAB</p>
+</dd>
+<dt class="field-even">Fecha</dt>
+<dd class="field-even"><p>13 de abril de 2020</p>
+</dd>
+</dl>
+<div class="section" id="id13">
+<h3>Motivación<a class="headerlink" href="#id13" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Estudio de modelos de difusión en mezclas ternarias de gases para la cuantificación de parámetros de procesos separativos en el marco del proyecto LASIE (Laboratorio Argentino de Separación Isotópica Experimental)</p>
+</div>
+<div class="section" id="id14">
+<h3>Objetivos<a class="headerlink" href="#id14" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El análisis de los procesos difusivos en mezclas de gases resulta determinante al momento de cuantificar tanto la separación de mezclas de gases, como la isotópica.
+Se propone elaborar modelos que permitan estimar el poder separativo en mezclas ternarias de gases de interés del proyecto. Para ello se partirá de las ecuaciones de difusión desarrolladas en trabajos anteriores para estudiar la forma más apropiada de modelarlas, y su posterior implementación en el código de cálculo que permita estimar los parámetros característicos del proceso separativo. Además, se propone estudiar la influencia de la distribución espacial de las especies en cuestión, como resultado del proceso separativo, en las propiedades de la mezcla.</p>
+</div>
+<div class="section" id="id15">
+<h3>Cronograma<a class="headerlink" href="#id15" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="simple">
+<dt>1er cuatrimestre:</dt><dd><p>Estudio de las ecuaciones de difusión en gases. Análisis del modelo. Estudio de fortalezas y debilidades del mismo.</p>
+</dd>
+<dt>2do cuatrimestre:</dt><dd><p>Implementación del modelo en un código de cálculo. Evaluación cuantitativa de parámetros relevantes del proceso. Documentación del trabajo.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="caracterizacion-de-ondas-de-choque-en-toberas-tipo-expansion-libre">
+<h2>Caracterización de ondas de choque en toberas tipo expansión libre<a class="headerlink" href="#caracterizacion-de-ondas-de-choque-en-toberas-tipo-expansion-libre" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">Director</dt>
+<dd class="field-odd"><p>Dr. José González</p>
+</dd>
+<dt class="field-even">Co-director</dt>
+<dd class="field-even"><p>Ing. Leandro Perlo</p>
+</dd>
+</dl>
+<div class="section" id="id16">
+<h3>Motivación<a class="headerlink" href="#id16" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Caracterización de flujos en toberas axisimétricas con divisor de flujo (skimmer) orientado a cuantificación de parámetros de procesos separativos, en el marco del proyecto LASIE.</p>
+</div>
+<div class="section" id="id17">
+<h3>Objetivos<a class="headerlink" href="#id17" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Se propone estudiar la influencia de la presencia del divisor de flujo en la geometría de la expansión en combinaciones tobera - skimmer de geometría axisimétrica.
+Para ello se propone evaluar numéricamente con herramientas desarrolladas en el proyecto, la deformación en la geometría de la expansión que produce el enfrentar al flujo a una superficie sólida como el skimmer, así como la variación de las condiciones de contorno de entrada y salida del flujo. Además, se propone evaluar la influencia en los parámetros relevantes que caracterizan la separación en este tipo de geometría.</p>
+</div>
+<div class="section" id="id18">
+<h3>Cronograma<a class="headerlink" href="#id18" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="simple">
+<dt>1er cuatrimestre:</dt><dd><p>Estudio de los modelos de difusión de gases en toberas con geometría axisimétrica. Cálculo numérico de la geometría más conveninete para una dada mezcla de gases. Eleccíon de los parámetros de la geometría de interés para el gas elegido.</p>
+</dd>
+<dt>2do cuatrimestre:</dt><dd><p>Evaluación de la influencia en los parámetros del proceso separativo que tiene la presencia del skimmer. Documentación del trabajo.</p>
 </dd>
 </dl>
 </div>
