@@ -54,13 +54,9 @@ El siguiente paso consistirá en el estudio de diferentes métodos para la resol
 Este punto se compone de varias etapas que involucran:
 
 - generación de pulsos 'teóricos' o de 'prueba'.
-
 - verificación de funcionamiento del código.
-
 - estudio de la convergencia y estabilidad del sistema de resolución.
-
 - resolución de los espectrogramas con la incorporación de 'ruido'.
-
 - comparación con otros códigos de resolución numérica.
 
 Segundo eje
@@ -71,11 +67,8 @@ El estudiante se involucrará en mediciones experimentales de pulsos del orden d
 El trabajo del estudiante comprenderá los siguientes aspectos:
 
 - mediciones de autocorrelación.
-
 - mediciones de espectrogramas mediante FROG.
-
 - análisis y procesamiento de los datos registrados.
-
 - caracterización de los pulsos láseres ultracortos utilizando el código numérico implementado.
 
 
