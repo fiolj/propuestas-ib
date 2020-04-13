@@ -1,0 +1,33 @@
+********************************************************************************
+Análisis de rangos de validez entre modelos fluidodinamicos y flujos moleculares
+********************************************************************************
+
+:Director: Dr. Juan Fiol
+:Co-Director: Dr. José González
+:Lugar: Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE - CAB
+:Fecha: |today|
+
+Motivación
+==========
+
+Estudio de rangos de validez de la hipótesis del continuo a muy bajas presiones, comparando con modelos moleculares, orientado a la cuantificación de parámetros de procesos separativos en el marco del proyecto LASIE (Laboratorio Argentino de Separación Isotópica Experimental)
+
+Objetivos
+=========
+
+En el proceso de diseño y optimización de un proceso separativo de especies que involucre el flujo de gases en una determinada geometría, no se suele conocer de antemano el rango de presiones en el cual será necesario trabajar. La hipótesis del continuo (fluidodinámica) empieza a tener cuestionada validez en el rango de muy bajas presiones, donde los modelos de interacciones moleculares son más precisos.
+Sin embargo, estos últimos involucran un costo computacional más elevado.
+Dado que en una misma geometría pueden coexistir regiones de más altas presiones con otras de muy bajas presiones, resulta de interés hasta donde se podría utilizar la fluidodinámica para la caracterización del flujo, para luego usarla como parámetros de entrada de un cálculo molecular, en las regiones donde sea más adecuado un modelo de estas características.
+
+
+Cronograma
+==========
+
+1er cuatrimestre:
+     - Estudio de los modelos a utilizar, tanto fluidodinámicos como moleculares.
+
+     - Análisis y determinación de la geometría y gas de interés a utilizar para el modelado.
+
+2do cuatrimestre:
+    - Implementación en los códigos de cálculo correspondientes.
+    - Evaluación cuantitativa de parámetros relevantes del proceso. Documentación del trabajo.
