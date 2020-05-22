@@ -73,7 +73,7 @@ Cronograma
 
     - Estudio del sistema de diagnóstico por tiempo de vuelo y aplicación a la geometría del sistema de separación.
 
-    - Opcionalmente, dependiendo del tiempo se realizarán mediciones de la densidad del haz atómico y se contrastarán con el modelo desarrollado.
+    - Participación de la implementación experimental del sistema de flujos y mediciones de la densidad del haz atómico. Los resultados se contrastarán con el modelo desarrollado.
 
     - Documentación del trabajo.
 
