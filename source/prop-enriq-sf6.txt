@@ -63,8 +63,7 @@ tobera y skimmer y la distancia entre ellos; de la línea y la energía por
 pulso del láser; del área irradiada y la posición de irradiación, entre
 otros.
 
-
-En una primera estapa el trabajo se orientará a la determinación de la
+En una primera etapa el trabajo se orientará a la determinación de la
 selectivad isotópica del método de separación para el caso de irradiación con
 un láser de CO2 continuo. Seguidamente se estudiará la dependencia de la
 selectividad en función de los parámetros ya mencionados.
