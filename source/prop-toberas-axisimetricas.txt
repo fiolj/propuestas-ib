@@ -24,3 +24,5 @@ Cronograma
 
 2do cuatrimestre:
     Evaluación de la influencia en los parámetros del proceso separativo que tiene la presencia del skimmer. Documentación del trabajo.
+
+-------------

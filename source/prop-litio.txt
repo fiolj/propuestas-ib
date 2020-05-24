@@ -19,11 +19,6 @@ En este contexto, es importante remarcar que la producción de litio enriquecido
 
 El objetivo de este trabajo es el desarrollo de un método de separación isotópica de Litio inducida por láser que permita un grado de enriquecimiento suficiente para su utilización en aplicaciones nucleares como reactores de potencia y detección de neutrones.
 
-.. |7Li| replace:: :sup:`7`\ Li
-.. |6Li| replace:: :sup:`6`\ Li
-.. |Li2CO3| replace:: Li\ :sub:`2`\ CO\ :sub:`3`
-.. |LiPF6| replace:: LiPF\ :sub:`6`
-
 La investigación está dirigida a demostrar la factibilidad del proceso de enriquecimiento isotópico de litio mediante la técnica AVLIS (Atomic Vapor Laser Isotope Separation), que consta de tres etapas diferenciadas:
 
 Generación del haz atómico:
@@ -81,3 +76,10 @@ Plan de Formación
 =================
 
 Se sugiere el cursado de una materia en el área de Métodos numéricos y computacionales, dependiendo de la oferta de materias disponibles
+
+----------
+
+.. |7Li| replace:: :sup:`7`\ Li
+.. |6Li| replace:: :sup:`6`\ Li
+.. |Li2CO3| replace:: Li\ :sub:`2`\ CO\ :sub:`3`
+.. |LiPF6| replace:: LiPF\ :sub:`6`

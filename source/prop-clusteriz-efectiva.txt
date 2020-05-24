@@ -25,3 +25,5 @@ Cronograma
 
 2do cuatrimestre:
     Implementación del modelo en un código de cálculo. Evaluación cuantitativa de parámetros relevantes del proceso. Documentación del trabajo.
+
+---------

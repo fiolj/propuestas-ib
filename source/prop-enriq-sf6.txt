@@ -73,3 +73,4 @@ excitación y se determinará el efecto del pulsado en la separción observada,
 con especial énfasis en el efecto de dilución asociado con la distribución de
 velocidades de las compenentes del haz molecular.
 
+------------
