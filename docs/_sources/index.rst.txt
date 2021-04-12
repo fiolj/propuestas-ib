@@ -6,12 +6,21 @@
 Propuestas de trabajos y proyectos integradores
 ===============================================
 
+   
 .. toctree::
    :maxdepth: 1
-   :caption: Propuestas 2020:
+   :caption: Propuestas 2021:
+
+   prop-litio
+   prop-enriq-sf6
+   prop-contraste-exper
+   prop-clusteriz-efectiva
+   prop-difusion-ternaria
+   prop-toberas-axisimetricas
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Información extendida:
 
    litio
-   frog
-
-   propuestas-20
-
