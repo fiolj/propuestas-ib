@@ -13,6 +13,8 @@ Propuestas de trabajos y proyectos integradores
 
    prop-litio
    prop-enriq-sf6
+   prop-fluidodinamica-mcnp
+
    prop-contraste-exper
    prop-clusteriz-efectiva
    prop-difusion-ternaria

@@ -6,14 +6,14 @@ Automatización y caracterización de un dispositivo para enriquecimiento isotó
 Resumen
 *******
 
-   El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres, que resulta de una colaboración entre la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE y el Laboratorio de Fotónica y Optoelectrónica de la Gerencia de Física del Centro Atómico Bariloche. El plan de trabajo integra todas las etapas necesarias para el desarrollo de un método de separación isotópica de litio, con una fuerte interacción entre los aspectos teóricos y experimentales.
+   El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres, que resulta de una colaboración entre la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE y el Laboratorio de Fotónica y Optoelectrónica de la Gerencia de Física del Centro Atómico Bariloche. El plan de trabajo (**integra -> concierne**) todas las etapas necesarias para el desarrollo de un método de separación isotópica de litio, con una fuerte interacción entre los aspectos teóricos y experimentales.
 
 
 ********
 Objetivo
 ********
 
-El proyecto propuesto se divide en dos objetivos. El primero de ellos es la caracterización mediante simulaciones numéricas de un evaporador de litio. El segundo objetivo consiste en la implementación del sistema de control, monitoreo y adquisición del dispositivo para enriquecimiento isotópico de litio.
+El proyecto propuesto se divide en dos objetivos. El primero de ellos es la caracterización mediante simulaciones numéricas de un evaporador de litio. El segundo objetivo consiste en la implementación del sistema de control, monitoreo en tiempo real, y adquisición **de datos** del dispositivo para enriquecimiento isotópico de litio.
 
 ************
 Introducción

@@ -15,14 +15,16 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
+import datetime
 
+year = str(datetime.datetime.today().year)
 
-project = 'Propuestas-IB 20'
-copyright = '2020, Juan Fiol'
+project = f'Propuestas-IB {year[-2:]}'
+copyright = f'2020-{year}, Juan Fiol'
 author = 'Juan Fiol'
 
 # The full version, including alpha/beta/rc tags
-release = '2020'
+release = year
 
 
 # -- General configuration ---------------------------------------------------
