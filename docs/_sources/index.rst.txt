@@ -12,11 +12,16 @@ Propuestas de trabajos y proyectos integradores
    :caption: Propuestas 2021:
 
    prop-litio
+   prop-fluido-dsmc
    prop-enriq-sf6
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Información extendida:
+..
+   .. toctree::
+..
+      :maxdepth: 1
+..
+      :caption: Información extendida:
 
-   litio
+..
+      litio

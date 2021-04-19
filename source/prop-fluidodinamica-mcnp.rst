@@ -1,62 +1,63 @@
-********************************************************************************
+################################################################################
 Análisis de rangos de validez entre modelos fluidodinamicos y flujos moleculares
-********************************************************************************
+################################################################################
 
 :Director: Dr. Juan Fiol
 :Co-Director: Dr. José González
 :Lugar: Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE - CAB
 :Fecha: |today|
 
+**********
 Motivación
-==========
+**********
 
 Estudio de rangos de validez de la hipótesis del continuo a muy bajas
 presiones, comparando con modelos moleculares, orientado a la
 cuantificación de parámetros de procesos separativos en el marco del
 proyecto LASIE (Laboratorio Argentino de Separación Isotópica Experimental)
 
-En el proceso de diseño y optimización de un proceso separativo de
-especies que involucre el flujo de gases en una determinada geometría,
-no se suele conocer de antemano el rango de presiones en el cual será
-necesario trabajar. Un caso particularmente complejo de resolver ocurre
-en toberas de expansión supersónica utilizada en procesos separativos ya
-que coexisten algunas regiones de alta presión con otras de muy bajas
-presiones. Para resolver estos problemas es importante conocer cuando la
-hipótesis del continuo (fluidodinámica) empieza a tener cuestionada
-validez debido a las bajas presiones involucradas. En estos regímenes
-los modelos de interacciones moleculares son más adecuados.
-Complementariamente, los métodos más precisos en el regimen de gases
-enrarecidos presentan un costo computacional muy elevado en las regiones
-de altas presiones.
+En el proceso de diseño y optimización de un proceso separativo de especies
+que involucre el flujo de gases en una determinada geometría, no se suele
+conocer de antemano el rango de presiones en el cual será necesario
+trabajar. Un caso particularmente complejo de resolver ocurre en toberas de
+expansión supersónica utilizada en procesos separativos ya que coexisten
+algunas regiones de alta presión con otras de muy bajas presiones. Para
+resolver estos problemas es importante conocer cuando la hipótesis del
+continuo (fluidodinámica) empieza a tener cuestionada validez debido a las
+bajas presiones involucradas. En estos regímenes los modelos de
+interacciones moleculares son más adecuados.  Complementariamente, los
+métodos más precisos en el regimen de gases enrarecidos presentan un costo
+computacional muy elevado en las regiones de altas presiones.
 
 
+*********
 Objetivos
-=========
+*********
 
-Dado que en una misma geometría puede coexistir una región de alta
-presión, seguida de otras con presiones más bajas, resulta de interés
-conocer hasta donde se podría utilizar la fluidodinámica para la
-caracterización del flujo, para luego usarla como parámetros de entrada
-de un cálculo molecular, en las regiones donde sea más adecuado un
-modelo de estas características.
+Dado que en una misma geometría puede coexistir una región de alta presión,
+seguida de otras con presiones más bajas, resulta de interés conocer hasta
+donde se podría utilizar la fluidodinámica para la caracterización del
+flujo, para luego usarla como parámetros de entrada de un cálculo
+molecular, en las regiones donde sea más adecuado un modelo de estas
+características.
 
 En una primera etapa el estudiante se interiorizará de los fundamentos
 subyacentes en los modelos fluidodinámicos y moleculares básicos a
-utilizar, así como el análisis de la geometría y características del gas
-de interés. Tanto la tobera como los gases a utilizar serán simples, de
-manera de no introducir nuevas dificultades al problema.
+utilizar, así como el análisis de la geometría y características del gas de
+interés. Tanto la tobera como los gases a utilizar serán simples, de manera
+de no introducir nuevas dificultades al problema.
 
 El estudiante utilizará los resultados obtenidos mediante códigos de
-cálculo fluidodinámico, y de simulaciones moleculares Direct
-MonteCarlo Simulation (DSMC) para determinar el flujo supersónico en
-toberas de expansión libre. La comparación de los resultados obtenidos
-mediante estos dos disímiles métodos se utilizará para modificar la
-geometría de la tobera y evaluar los efectos considerados en los dos
-modelos.
+cálculo fluidodinámico, y de simulaciones moleculares Direct MonteCarlo
+Simulation (DSMC) para determinar el flujo supersónico en toberas de
+expansión libre. La comparación de los resultados obtenidos mediante estos
+dos disímiles métodos se utilizará para modificar la geometría de la tobera
+y evaluar los efectos considerados en los dos modelos.
 
 
+**********
 Cronograma
-==========
+**********
 
 1er cuatrimestre:
      - Estudio de los modelos a utilizar, tanto fluidodinámicos como moleculares.

@@ -21,4 +21,4 @@ help:
 
 docs:
 	make html
-	rsync -rv --delete --exclude=".nojekyll"  build/html/ docs/
+	rsync -rv --update --delete --exclude=".nojekyll"  build/html/ docs/

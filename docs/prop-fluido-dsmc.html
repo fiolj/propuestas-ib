@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Difusión de especies analizados dentro de los marcos de modelos fluidodinamico y molecular &mdash; documentación de Propuestas-IB 21 - 2021</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Caracterización y optimización de un sistema de separación isotópica" href="prop-enriq-sf6.html" />
+    <link rel="prev" title="Automatización y caracterización de un dispositivo para enriquecimiento isotópico de litio" href="prop-litio.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Propuestas-IB 21
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Propuestas 2021:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="prop-litio.html">Automatización y caracterización de un dispositivo para enriquecimiento isotópico de litio</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Difusión de especies analizados dentro de los marcos de modelos fluidodinamico y molecular</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#motivacion">Motivación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#objetivos">Objetivos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cronograma">Cronograma</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="prop-enriq-sf6.html">Caracterización y optimización de un sistema de separación isotópica</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Propuestas-IB 21</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Difusión de especies analizados dentro de los marcos de modelos fluidodinamico y molecular</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/prop-fluido-dsmc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="difusion-de-especies-analizados-dentro-de-los-marcos-de-modelos-fluidodinamico-y-molecular">
+<h1>Difusión de especies analizados dentro de los marcos de modelos fluidodinamico y molecular<a class="headerlink" href="#difusion-de-especies-analizados-dentro-de-los-marcos-de-modelos-fluidodinamico-y-molecular" title="Enlazar permanentemente con este título">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Director</dt>
+<dd class="field-odd"><p>Dr. Juan Fiol</p>
+</dd>
+<dt class="field-even">Co-Director</dt>
+<dd class="field-even"><p>Ing. Leandro Frigerio</p>
+</dd>
+<dt class="field-odd">Lugar</dt>
+<dd class="field-odd"><p>Subgerencia Aplicaciones de la Tecnología Láser, Gerencia Proyecto LASIE - CAB</p>
+</dd>
+<dt class="field-even">Fecha</dt>
+<dd class="field-even"><p>18 de abril de 2021</p>
+</dd>
+</dl>
+<div class="section" id="motivacion">
+<h2>Motivación<a class="headerlink" href="#motivacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Estudio de rangos de validez de la hipótesis del continuo a muy bajas
+presiones, comparando con modelos moleculares, orientado a la
+cuantificación de parámetros de procesos separativos en el marco del
+proyecto LASIE (Laboratorio Argentino de Separación Isotópica para
+Enriquecimiento)</p>
+<p>En el proceso de diseño y optimización de un proceso separativo de especies
+que involucre el flujo de gases en una determinada geometría, no se suele
+conocer de antemano el rango de presiones en el cual será necesario
+trabajar. Un caso particularmente complejo de resolver ocurre en toberas de
+expansión supersónica utilizada en procesos separativos ya que coexisten
+algunas regiones de alta presión con otras de muy bajas presiones. Para
+resolver estos problemas es importante conocer cuando la hipótesis del
+continuo (fluidodinámica) empieza a tener cuestionada validez debido a las
+bajas presiones involucradas. En estos regímenes los modelos de
+interacciones moleculares son más adecuados.  Complementariamente, los
+métodos más precisos en el regimen de gases enrarecidos presentan un costo
+computacional muy elevado en las regiones de altas presiones.
+Adicionalmente, no se conocen comparaciones con otros métodos de cálculo
+que permitan verificar la precisión de los modelos de separación de
+especies bajo la hipótesis del continuo. El régimen molecular permitiría
+estimarlo, para comparar resultados de difusión de especies en casos de
+interés.</p>
+</div>
+<div class="section" id="objetivos">
+<h2>Objetivos<a class="headerlink" href="#objetivos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Dado que en una misma geometría puede coexistir una región de alta presión,
+seguida de otras con presiones más bajas, resulta de interés conocer el
+rango de validez del modelo fluidodinámico para la caracterización del
+flujo, y la separación de especies.</p>
+<p>Basados en resultados obtenidos en trabajos previos, en una primera
+etapa el estudiante se interiorizará de los fundamentos subyacentes en
+los modelos fluidodinámicos y moleculares básicos a utilizar, así como
+el análisis de la geometría y características de los gases de interés.
+Se iniciará este estudio utilizando una tobera y gases similares a los
+que se vienen analizando previamente, de manera de no introducir
+nuevas dificultades al problema.</p>
+<p>El estudiante calculará, mediante códigos de cálculo fluidodinámico y de
+simulaciones moleculares (<em>Direct Monte-Carlo Simulation</em>: DSMC) el flujo
+supersónico en toberas de expansión libre. La comparación de los resultados
+obtenidos mediante estos dos disímiles métodos se utilizará para analizar
+la difusión de especies en ambos modelos.</p>
+</div>
+<div class="section" id="cronograma">
+<h2>Cronograma<a class="headerlink" href="#cronograma" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl>
+<dt>1er cuatrimestre:</dt><dd><ul class="simple">
+<li><p>Estudio de los modelos a utilizar, tanto fluidodinámicos como moleculares.</p></li>
+<li><p>Análisis y determinación de la geometría y gases de interés a utilizar para el modelado.</p></li>
+</ul>
+</dd>
+<dt>2do cuatrimestre:</dt><dd><ul>
+<li><p>Implementación del sistema elegido en los códigos de cálculo correspondientes para su simulación.</p>
+<p>En esta etapa el estudiante conocerá el funcionamiento básico del código SPARTA para el método DSMC y se interiorizará en el área de cálculos fluidodinámicos con ANSYS FLUENT.</p>
+</li>
+<li><p>Simulaciones y cálculos de difusión de especies en el flujo supersónico. Documentación del trabajo.</p>
+<p>En esta etapa se espera que el estudiante analice los datos producidos por ambos códigos. Estos resultados permitirán identificar los parámetros relevantes en el fenómeno de difusión de especies.</p>
+</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="prop-enriq-sf6.html" class="btn btn-neutral float-right" title="Caracterización y optimización de un sistema de separación isotópica" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="prop-litio.html" class="btn btn-neutral float-left" title="Automatización y caracterización de un dispositivo para enriquecimiento isotópico de litio" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020-2021, Juan Fiol
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
