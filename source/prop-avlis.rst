@@ -3,13 +3,21 @@ Proyecto integrador y Maestría: Litio
 #####################################
 
 
-*******************************************************************
- enriquecimiento de Litio
-*******************************************************************
+**************************************************************************************************
+Modelado de haces atómicos e iónicos en procesos de enriquecimiento isotópico asistido por láseres
+**************************************************************************************************
 
-*******
-Resumen
-*******
+**********
+Motivación
+**********
+
+Los materiales enriquecidos isotópicamente son importantes en cientos de aplicaciones en áreas tan diversas como tecnología nuclear, medicina, arqueología, ciencias del clima, y en distintas ramas de la industria (ver por ejemplo [wna-uses-isotopes]_).
+En general, los distintos isótopos de un átomo tienen propiedades químicas similares, pero características propias de cada isótopo como su estabilidad en el caso de isótopos radiactivos (y correspondiente vida media) o el *spin* nuclear dan lugar a comportamientos diferentes y permiten desarrollar aplicaciones específicas.
+
+Por ejemplo, el litio es uno de los átomos más simples y tiene sólo dos isótopos estables |7Li| y |6Li| con poblaciones naturales de 92,58% y 7,42%, respectivamente. Mientras sus propiedades químicas difieren levemente, las secciones eficaces de captura neutrónica de |6Li| es relativamente alta, alrededor de 20000 veces mayor que la de |7Li|, por lo que es especialmente adecuado para la construcción de detectores de neutrones por centelleo. En este tipo de aplicaciones, el enriquecimiento del material produce un valor agregado en factores que pueden llegar a más de 10000.
+
+Tanto en el caso de litio como en muchos elementos isotópicamente enriquecidos que se utilizan para medicina nuclear, las cantidades requeridas son modestas, en el rango de algunos gramos a unos pocos kilogramos por año, y con un alto grado de enriquecimiento. En estas condiciones se considera que los métodos de separación isotópica mediante ionización selectiva por láseres es altamente apropiada, ya que tienen una alta eficiencia de separación (ver por ejemplo la discusión sobre litio en [wna-sep-litio]_)
+
 
 El plan de trabajo está orientado a investigar procesos de generación de un haz atómico para y la posterior recolección  todas las etapas necesarias para el desarrollo de un método de separación isotópica de litio, con una fuerte interacción entre los aspectos teóricos y experimentales.
 El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres.
@@ -117,7 +125,12 @@ Durante este período se utilizarán las predicciones numéricas y los resultado
 ***********
 Referencias
 ***********
-                     
+
+.. [wna-uses-isotopes] **The Many Uses of Nuclear Technology** en world-nuclear.org: https://world-nuclear.org/information-library/non-power-nuclear-applications/overview/the-many-uses-of-nuclear-technology.aspx
+
+.. [wna-sep-litio] **Lithium** en world-nuclear.org: https://world-nuclear.org/information-library/current-and-future-generation/lithium.aspx
+
+		   
 .. [Corti17] **Litio y tecnología nuclear.** H. R. Corti. *Litio: un recurso natural estratégico desde los depósitos minerales a las aplicaciones tecnológicas.* Ed. E. Baran. Academia Nacional de Ciencias Exactas, Físicas y Naturales y Academia Nacional de Ingeniería, Publicaciones Científicas No 12, pag. 185-198 (2017).
 
 .. [Sen12] I. Sen, M. Urffer, D. Penumadu, S. A. Young, L. F. Miller, A. N. Mabe. IEEE Trans. Nuclear Sci. 59, 1781 (2012).
