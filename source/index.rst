@@ -3,25 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Propuestas de trabajos y proyectos integradores
-===============================================
+Propuestas de trabajos
+======================
 
    
 .. toctree::
    :maxdepth: 1
-   :caption: Propuestas 2021:
+   :caption: Propuestas 2022:
 
-   prop-litio
-   prop-fluido-dsmc
+   prop-avlis
+   prop-fluidodinamica-mcnp
    prop-enriq-sf6
 
-
-..
-   .. toctree::
-..
-      :maxdepth: 1
-..
-      :caption: Información extendida:
-
-..
-      litio
