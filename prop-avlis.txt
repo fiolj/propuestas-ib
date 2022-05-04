@@ -43,26 +43,6 @@ Se propone investigar en forma teórica y computacional las dos etapas del proce
 
 Como consecuencia de la utilización de una fuente atómica optimizada, la ionización por láseres producirá una nube de iones y electrones de densidad moderada o alta. La segunda línea de investigación consistirá en el estudio del comportamiento de los iones a extraer mediante campos electromagnéticos en presencia de un plasma de densidad moderada. 
 
-**********
-Cronograma
-**********
-
-1er cuatrimestre:
-     - Estudio de los modelos a utilizar, resultados utilizando cálculos analíticos.
-
-     - Análisis y determinación de la geometría y gas de interés a utilizar para el modelado.
-
-2do cuatrimestre:
-    - Implementación del sistema elegido en los códigos de cálculo numérico correspondientes para su simulación.
-
-      En esta etapa el estudiante conocerá el funcionamiento básico de los códigos a utilizar y realizará los cálculos para distintas configuraciones.
-
-    - Evaluación cuantitativa de parámetros relevantes del proceso. Documentación del trabajo.
-
-      En esta etapa se espera que el estudiante analice los datos producidos por ambos códigos. Estos resultados permitirán identificar los parámetros de la geometría y condiciones macroscópicas relevantes para optimizar el proceso.
-
-
-
 ***********
 Referencias
 ***********
@@ -73,5 +53,3 @@ Referencias
 
 .. |7Li| replace:: :sup:`7`\ Li
 .. |6Li| replace:: :sup:`6`\ Li
-
-		   

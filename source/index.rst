@@ -12,6 +12,7 @@ Propuestas de trabajos
    :caption: Propuestas 2022:
 
    prop-avlis
+   prop-harriet
    prop-fluidodinamica-mcnp
    prop-enriq-sf6
 

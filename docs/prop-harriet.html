@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caracterización óptica de una celda Multipaso tipo Herriot y estudio teórico-experimental de tolerancia ante distorsiones mecánicas. &mdash; documentación de Propuestas-IB 22 - 2022</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Propuestas-IB 22
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Propuestas 2021:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="prop-litio.html">Automatización y caracterización de un dispositivo para enriquecimiento isotópico de litio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prop-enriq-sf6.html">Caracterización y optimización de un sistema de separación isotópica</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Propuestas-IB 22</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Caracterización óptica de una celda Multipaso tipo Herriot y estudio teórico-experimental de tolerancia ante distorsiones mecánicas.</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/prop-harriet.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="caracterizacion-optica-de-una-celda-multipaso-tipo-herriot-y-estudio-teorico-experimental-de-tolerancia-ante-distorsiones-mecanicas">
+<h1>Caracterización óptica de una celda Multipaso tipo Herriot y estudio teórico-experimental de tolerancia ante distorsiones mecánicas.<a class="headerlink" href="#caracterizacion-optica-de-una-celda-multipaso-tipo-herriot-y-estudio-teorico-experimental-de-tolerancia-ante-distorsiones-mecanicas" title="Enlazar permanentemente con este título"></a></h1>
+<div class="section" id="motivacion">
+<h2>Motivación<a class="headerlink" href="#motivacion" title="Enlazar permanentemente con este título"></a></h2>
+<p>Los métodos de separación isotópica asistida por láseres han adquirido mucha relevancia a nivel mundial en los últimos años. La disponibilidad de tecnología láser infrarroja es una de los mayores desafíos en el desarrollo de procesos escalables de enriquecimiento de uranio asistidos por láser.</p>
+<p>Una solución a estos problemas está basada en fenómenos ópticos no lineales llevados a cabo en celdas de conversión Raman para obtener una línea específica de 16µm de longitud de onda. La posibilidad de producción de esta línea de emisión en forma estable, con la potencia y frecuencia de repetición necesarias, es un desafío aún vigente.</p>
+<p>Desde hace décadas las celdas multipaso (CMP) se han empleado para diversos fines como compresión de pulsos o generación de radiación específica a partir de procesos no lineales. En estas celdas un haz láser, que sufre múltiples reflexiones antes de salir de la celda, interactúa con el gas interior con las intensidades umbrales requeridas y produce radiación láser de la frecuencia necesaria. En procesos de interés es requerido un gran número de pasos, por lo que el sistema es muy sensible a cambios termodinámicos. La alineación del haz de ingreso y de los espejos es fundamental y debe ser evaluada y comprendida su tolerancia a esfuerzo mecánicos y térmicos.</p>
+<p>La generación de líneas de emisión infrarrojas en una CMP de conversión Raman es una etapa esencial en el proyecto LASIE. Una exhaustiva caracterización de la performance de la celda permite optimizar y controlar las energías de los pulsos generados, evitando degradación de los procesos no lineales deseados dentro de la cavidad. Adicionalmente, teniendo en cuenta la utilización de láseres pulsados, las intensidades logradas son considerables, con lo cual, se debe evitar el daño de los elementos ópticos utilizados.</p>
+</div>
+<div class="section" id="propuesta-y-objetivos">
+<h2>Propuesta y Objetivos<a class="headerlink" href="#propuesta-y-objetivos" title="Enlazar permanentemente con este título"></a></h2>
+<p>En este trabajo se propone la puesta a punto de una celda tipo Herriot.
+En este sentido el estudiante deberá comprender el trazado de rayos, así
+como las propiedades de enfoque y divergencia del haz para que la celda
+funcione correctamente. Por otro lado, se propone el desarrollo de un
+modelo simple de distorsión mecánico de los espejos inducido por
+variaciones térmicas de gran amplitud o por trabajar con gases a alta
+presión.</p>
+<p>Posibles funciones de astigmatismo podrían ajustarse a deformaciones
+mecánicas y/o térmicas de espejos metálicos, permitiendo predecir si las
+condiciones de funcionamiento se ajustan a las tolerancias de
+funcionamiento requeridas.</p>
+<p>Se propone adicionalmente estudiar en un modelo simplificado las
+dilataciones térmicas del Au y su efecto en la distorsión del radio de
+curvatura. Complementariamente sería factible mecanizar una montura para
+espejos metálicos macizos y someterla a pequeños esfuerzos mecánicos con
+la celda en funcionamiento, determinando si el resonador se mantiene
+dentro del rango de estabilidad.</p>
+<p>El objetivo consiste en el entrenamiento de la alineación de un sistema
+óptico real, el estudio de sus tolerancias y los desafíos mecánicos para
+minimizar efectos de desalineación, así como la implementación de un
+modelo de deformación que pueda ser cotejado experimentalmente
+(potencialmente al menos).</p>
+</div>
+<div class="section" id="cronograma-tentativo-y-tareas-desarrollar">
+<h2>Cronograma tentativo y tareas desarrollar<a class="headerlink" href="#cronograma-tentativo-y-tareas-desarrollar" title="Enlazar permanentemente con este título"></a></h2>
+<p><strong>1er trimestre:</strong></p>
+<ul class="simple">
+<li><p>Estudio del trazo de rayos, modos, parámetros de una celda multipaso,
+condiciones de estabilidad.</p></li>
+<li><p>Análisis y determinación de las condiciones de ingreso de pulsos
+láser, determinación de las intensidades logradas en el volumen
+focal, en función de distintos parámetros.</p></li>
+<li><p>Estudio de correcciones para haces no Gaussianos (influencia del
+factor M).</p></li>
+<li><p>Diseño e implementación de una función de astigmatismo para simular
+posibles deformaciones del radio de curvatura y su efecto en la
+performance de la celda.</p></li>
+</ul>
+<p><strong>2do cuatrimestre:</strong></p>
+<ul class="simple">
+<li><p>Puesta a punto de una celda Herriot. Alineación y estudia
+experimental de tolerancias ante variación de condiciones iniciales.</p></li>
+<li><p>Comparación con los resultados obtenidos en la caracterización
+teórica.</p></li>
+</ul>
+<p><strong>3er cuatrimestre:</strong></p>
+<ul class="simple">
+<li><p>Estudio de deformaciones por dilataciones térmicas y/o de presión de
+un espejo metálico macizo y su efecto sobre el radio de curvatura.</p></li>
+<li><p>Análisis de la factibilidad de dichas deformaciones para una adecuada
+performance de una CMP Herriot teniendo en cuenta las tolerancias
+caracterizadas.</p></li>
+</ul>
+<p>REFERENCIAS (debo completar)</p>
+<p>[2] Multipass spectral broadening of 18  mJ pulses compressible from
+1.3  ps to 41  fs. DOI:<a class="reference external" href="https://doi.org/10.1364/OL.43.005877">10.1364/OL.43.005877</a></p>
+<ul class="simple">
+<li><p>Raman wavelength conversion in a multipass cell : <a class="reference external" href="https://opg.optica.org/ol/abstract.cfm?uri=ol-46-14-3380">https://opg.optica.org/ol/abstract.cfm?uri=ol-46-14-3380</a></p></li>
+<li><p>Multipass spectral broadening and compression in the green spectral range: <a class="reference external" href="https://doi.org/10.1364/OL.450200">https://doi.org/10.1364/OL.450200</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2020-2022, Juan Fiol.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
