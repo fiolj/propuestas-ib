@@ -1,8 +1,7 @@
-##################################################################################################
-Modelado de haces atómicos e iónicos en procesos de enriquecimiento isotópico asistido por láseres
-##################################################################################################
+########################################################################################
+Modelado de haces atómicos en procesos de enriquecimiento isotópico asistido por láseres
+########################################################################################
 
-:Director: Dr. Ricardo Farengo
 :Director: Dr. Juan Fiol
 :Lugar: Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE - CAB
 :Fecha: |today|
@@ -39,9 +38,7 @@ Propuesta y Objetivos
 
 La presente propuesta se enmarca dentro del proyecto de desarrollo de métodos de separación isotópica asistida por láseres del Proyecto LASIE. Estos experimentos están dirigidos al desarrollo de procesos de enriquecimiento isotópico de litio y otros materiales de interés mediante ionización selectiva.
 
-Se propone investigar en forma teórica y computacional las dos etapas del proceso de separación isotópica concernientes a átomos e iones. En la línea de generación del haz atómico, se propondrán y estudiarán diferentes fuentes de átomos neutros utilizando modelos analíticos y numéricos con el objetivo de obtener configuraciones optimizadas. 
-
-Como consecuencia de la utilización de una fuente atómica optimizada, la ionización por láseres producirá una nube de iones y electrones de densidad moderada o alta. La segunda línea de investigación consistirá en el estudio del comportamiento de los iones a extraer mediante campos electromagnéticos en presencia de un plasma de densidad moderada. 
+Se propone investigar en forma teórica, tanto en forma analítica como numérica, y mediante simulaciones computacionales, la generación del haz de átomos neutros. Se estudiará en primer lugar el sistema de generación de haz atómico más simple, correspondiente a un evaporador por temperatura con distintas configuraciones. Además, se propondrán y estudiarán fuentes de átomos alternativas con flujo de gases que permiten aumentar la densidad en varios órdenes de magnitud. El objetivo del trabajo es comprender el proceso y obtener configuraciones optimizadas para su aplicación en sistemas de separación isotópica en desarrollo en el laboratorio. 
 
 **********
 Cronograma

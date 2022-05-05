@@ -4,14 +4,15 @@ Proyecto integrador y Maestría: Litio
 
 
 *******************************************************************
-Diseño y caracterización de experimento de enriquecimiento de Litio
+ enriquecimiento de Litio
 *******************************************************************
 
 *******
 Resumen
 *******
 
-   El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres, que resulta de una colaboración entre  la Subgerencia Aplicaciones de la Tecnología Láser de la Gerencia Proyecto LASIE y el Laboratorio de Fotónica y Optoelectrónica de la Gerencia de Física del Centro Atómico Bariloche. El plan de trabajo integra todas las etapas necesarias para el desarrollo de un método de separación isotópica de litio, con una fuerte interacción entre los aspectos teóricos y experimentales.
+El plan de trabajo está orientado a investigar procesos de generación de un haz atómico para y la posterior recolección  todas las etapas necesarias para el desarrollo de un método de separación isotópica de litio, con una fuerte interacción entre los aspectos teóricos y experimentales.
+El presente plan de trabajo se enmarca dentro del proyecto de separación isotópica de litio asistida por láseres.
 
 
 ********
